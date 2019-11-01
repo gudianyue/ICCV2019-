@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ede301-ac5b-427b-be5a-0bb482df6e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iccv.py" beforeDir="false" afterPath="$PROJECT_DIR$/iccv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/说明.md" beforeDir="false" afterPath="$PROJECT_DIR$/说明.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-20" />
     <option name="y" value="167" />
     <option name="width" value="1355" />
@@ -132,12 +131,12 @@
       <workItem from="1572572819000" duration="4570000" />
       <workItem from="1572578200958" duration="1231000" />
       <workItem from="1572590072941" duration="7589000" />
-      <workItem from="1572604560582" duration="538000" />
+      <workItem from="1572604560582" duration="1405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14594000" />
+    <option name="totallyTimeSpent" value="15461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -148,7 +147,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3243626" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9575071" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
