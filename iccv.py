@@ -57,37 +57,37 @@ for key, value in hist.items():
     temp = [value, key]
     data.append(temp)
 data.sort(reverse=True)
-# plt.rcParams['font.sans-serif'] = ['SimHei']
-#
-#
-# keywords = Counter(word_list)
-# for letter, count in keywords.most_common(15):
-#     print('%s: %4d' % (letter, count))
-# threshold = 25
-# keywords_mc = keywords.most_common(threshold)
-#
-# plt.rcdefaults()
-# fig, ax = plt.subplots(figsize=(5, 6))
-#
-# key = [k[0] for k in keywords_mc]
-# value = [k[1] for k in keywords_mc]
-# y_pos = np.arange(len(key))
-# ax.barh(y_pos, value, align='center', color='green', ecolor='black', log=True)
-# ax.set_yticks(y_pos)
-# ax.set_yticklabels(key, rotation=0, fontsize=10)
-# ax.invert_yaxis()
-# ax.set_xlabel('Frequency')
-# ax.set_title('ICCV 2019 Submission Top {} Keywords'.format(threshold))
-# plt.show()
-#
-#
-# wordcloud = WordCloud(max_font_size=64, max_words=160,
-#                       width=1280, height=640,
-#                       background_color="black").generate(' '.join(word_list))
-# plt.figure(figsize=(16, 8))
-# plt.imshow(wordcloud, interpolation="bilinear")
-# plt.axis("off")
-# plt.show()
+plt.rcParams['font.sans-serif'] = ['SimHei']
+
+
+keywords = Counter(word_list)
+for letter, count in keywords.most_common(15):
+    print('%s: %4d' % (letter, count))
+threshold = 25
+keywords_mc = keywords.most_common(threshold)
+
+plt.rcdefaults()
+fig, ax = plt.subplots(figsize=(5, 6))
+
+key = [k[0] for k in keywords_mc]
+value = [k[1] for k in keywords_mc]
+y_pos = np.arange(len(key))
+ax.barh(y_pos, value, align='center', color='green', ecolor='black', log=True)
+ax.set_yticks(y_pos)
+ax.set_yticklabels(key, rotation=0, fontsize=10)
+ax.invert_yaxis()
+ax.set_xlabel('Frequency')
+ax.set_title('ICCV 2019 Submission Top {} Keywords'.format(threshold))
+plt.show()
+
+
+wordcloud = WordCloud(max_font_size=64, max_words=160,
+                      width=1280, height=640,
+                      background_color="black").generate(' '.join(word_list))
+plt.figure(figsize=(16, 8))
+plt.imshow(wordcloud, interpolation="bilinear")
+plt.axis("off")
+plt.show()
 
 
 def findpapers(topic):
